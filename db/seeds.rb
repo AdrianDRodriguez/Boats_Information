@@ -1,9 +1,1 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+Boat.create(name: "ETERNITY", maker: "Codecasa", model: "Superyacht", year: 2010, specs: "ETERNITY was designed by Codecasa and is arguably this Italian shipyard’s flagship. ETERNITY features a Bahamas-esque interior, originally conceived by Della Role Design and updated by Suzanne Lovell during the refit, which can be described as fresh, contemporary, and showcasing a subtle oceanic theme.", pricing: "35,000,000")

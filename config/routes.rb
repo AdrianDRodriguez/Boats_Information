@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/boats" => "boats#index"
-  get "/boats" => "boats#create"
+  get "/boats" => "boats#show"
+  post "/boats" => "boats#create"
 end

@@ -10,6 +10,7 @@ class BoatsController < ApplicationController
       maker: params[:maker],
       model: params[:model],
       year: params[:year],
+      pricing: params[:pricing],
       specs: params[:specs],
     )
     render :show
